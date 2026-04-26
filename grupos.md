@@ -8,7 +8,7 @@
 - **Tech Lead:** Adria Manuele da Silva Morais
 - Anderson Cardoso Ferreira
 - Luis Raul Vega Gamarra
-- Eduardo Gama de Assis
+- Wilki Salinas Costa
 
 ## Grupo 2 (4 pessoas)
 - **Tech Lead:** Elionara de Lima Andrade
@@ -35,4 +35,5 @@
 ## Grupo 6 (3 pessoas)
 - **Tech Lead:** Laura Yahuarcani dos Santos
 - Ryan de Freitas Cruz
-- Wilki Salinas Costa
+- Eduardo Gama de Assis
+
