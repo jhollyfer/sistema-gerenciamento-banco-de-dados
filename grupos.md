@@ -1,4 +1,4 @@
-# Divisão de Grupos — Projetos Práticos
+# Grupos - Projetos Práticos
 
 **Total:** 20 alunos | 6 grupos | 7 meninas (6 tech leads + 1 membro)
 
@@ -7,7 +7,7 @@
 ## Grupo 1 (4 pessoas)
 - **Tech Lead:** Adria Manuele da Silva Morais
 - Anderson Cardoso Ferreira
-- Carlos Cavalcante de Oliveira
+- Luis Raul Vega Gamarra
 - Eduardo Gama de Assis
 
 ## Grupo 2 (4 pessoas)
@@ -24,7 +24,8 @@
 ## Grupo 4 (3 pessoas)
 - **Tech Lead:** Fresia Estrela Prado Sanches
 - Jendrick da Silva Soares
-- Luis Raul Vega Gamarra
+- Carlos Cavalcante de Oliveira
+
 
 ## Grupo 5 (3 pessoas)
 - **Tech Lead:** Jessica Carla Ferreira Alves
