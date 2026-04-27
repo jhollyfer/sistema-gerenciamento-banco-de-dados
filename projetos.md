@@ -1,21 +1,23 @@
-## GRUPO 1 - Mãos que Criam - Marketplace de Artesanato
+## GRUPO 1 - Mãos que Criam - Marketplace de Artesanato Feminino
 
-Marketplace multi-vendedor focado em artesanato feminino. Cada artesã tem sua vitrine, gerencia seus produtos e recebe pedidos. A plataforma intermedia compras, avaliações e comissão.
+Marketplace exclusivo para mulheres artesãs do Alto Solimões. Cada artesã tem sua vitrine, gerencia seus produtos e recebe pedidos. A plataforma valoriza o protagonismo feminino na economia criativa local, intermedia compras, avaliações e comissão.
 
 ### Problemática
 
-Artesãs da região do Alto Solimões produzem peças de alto valor cultural, mas vendem majoritariamente em feiras locais ou via redes sociais, sem vitrine profissional, sem controle de pedidos, sem histórico de vendas e sem alcance fora da região. Plataformas genéricas (Mercado Livre, Shopee) cobram comissões altas, não valorizam a identidade do artesanato local e diluem a artesã em meio a produtos industriais. Falta um espaço digital que dê visibilidade coletiva preservando a identidade individual de cada artesã.
+Mulheres artesãs da região do Alto Solimões — muitas delas chefes de família, indígenas, ribeirinhas e mães solo — produzem peças de alto valor cultural que sustentam suas casas, mas vendem majoritariamente em feiras locais ou via redes sociais, sem vitrine profissional, sem controle de pedidos, sem histórico de vendas e sem alcance fora da região. Plataformas genéricas (Mercado Livre, Shopee) cobram comissões altas, não valorizam a identidade do artesanato local e diluem a artesã em meio a produtos industriais. Há ainda a invisibilidade histórica do trabalho feminino artesanal: o ofício é passado de mãe para filha há gerações, mas raramente é reconhecido como atividade econômica formal. Falta um espaço digital que dê visibilidade coletiva ao trabalho dessas mulheres, preserve a identidade individual de cada artesã, gere autonomia financeira e fortaleça a rede de mulheres produtoras da região.
 
 ### Escopo
 
-- Cadastro de artesãs com vitrine própria (foto, bio, localização)
+- Cadastro de artesãs com vitrine própria (foto, bio, história pessoal, localização, técnica/ofício)
+- Destaque para artesãs em situação de vulnerabilidade (mães solo, indígenas, ribeirinhas)
 - Cadastro de produtos com múltiplas imagens, categorias e estoque
-- Catálogo público navegável por categoria, artesã ou busca
+- Catálogo público navegável por categoria, artesã, técnica ou busca
+- Página "Conheça a artesã" com história e processo de produção
 - Carrinho de compras e checkout (pagamento simulado)
 - Fluxo de pedido: criação → pagamento → preparação → envio → entregue
 - Avaliação de produto e de artesã pós-compra
 - Cálculo de comissão da plataforma sobre cada venda
-- Painel da artesã: vendas, pedidos pendentes, faturamento
+- Painel da artesã: vendas, pedidos pendentes, faturamento, evolução mensal
 - RBAC: admin, artesã, cliente
 
 **Entidades:** `users`, `customers`, `artisans`, `shops`, `addresses`, `categories`, `products`, `product_images`, `carts`, `cart_items`, `orders`, `order_items`, `payments`, `reviews`.
