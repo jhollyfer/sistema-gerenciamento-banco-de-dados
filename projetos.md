@@ -72,24 +72,25 @@ Restaurantes de pequeno e médio porte ainda dependem de comandas em papel e ano
 
 ---
 
-## GRUPO 4 Manganga - Plataforma do Coletivo
+## GRUPO 4 - Manganga - Plataforma do Boi-Bumbá
 
-Plataforma do coletivo Manganga: cadastro de membros, geração de carteirinha digital com QR validável, catálogo público dos produtos dos membros e gestão de eventos com inscrição.
+Plataforma da associação cultural do Boi-Bumbá Manganga: gerencia os membros (brincantes, ritmistas, diretoria, apoiadores), expõe os produtos oficiais da agremiação, organiza os eventos (ensaios, apresentações, festivais) e mantém uma vitrine pública das ações sociais realizadas pelo grupo na comunidade.
 
 ### Problemática
 
-O coletivo Manganga reúne membros com perfis diversos (artesãs, voluntárias, colaboradoras) e realiza ações regulares (eventos, feiras, ações sociais), mas opera hoje sem sistema próprio: cadastros em planilhas, comunicação por WhatsApp, inscrições em eventos por formulário avulso, e nenhum mecanismo formal de identificação dos membros. Falta uma plataforma única que dê identidade ao coletivo, valide quem é membro ativo, exponha publicamente o trabalho dos integrantes e organize a participação em eventos — preservando a história e a memória institucional do grupo.
+A associação cultural do Boi-Bumbá Manganga preserva uma manifestação cultural típica da Amazônia, mas opera sem sistema próprio: lista de brincantes em papel, comunicação por WhatsApp, divulgação de ensaios e apresentações apenas em redes sociais sem histórico institucional, vendas de produtos oficiais informais, e impacto social das ações invisível para a comunidade e potenciais patrocinadores. Isso compromete a memória institucional do grupo, dificulta a gestão da associação, limita a venda de produtos que sustentam a agremiação e impede que o trabalho social realizado seja reconhecido como patrimônio cultural e social da região.
 
 ### Escopo
 
-- Cadastro de membros com categoria (artesã, voluntária, colaboradora, fundadora)
+- Cadastro de membros com categoria (brincante, ritmista, alegoria, diretoria, apoiador, fundador)
 - Histórico de filiação (ingresso, afastamento, reativação)
 - Geração de carteirinha digital com número único e QR code
-- Validação pública da carteirinha (qualquer pessoa escaneia e confirma se é membro ativo)
-- Catálogo público de produtos vinculados aos membros
-- Gestão de eventos com capacidade limitada e lista de espera
+- Validação pública da carteirinha (membros ativos da agremiação)
+- Catálogo público de produtos oficiais (camisetas, CDs de toadas, adereços, souvenirs)
+- Gestão de eventos: ensaios, apresentações, festivais, eventos beneficentes
 - Inscrição de membros em eventos com confirmação de presença
-- Painel administrativo do coletivo (membros ativos, eventos, estatísticas)
+- Vitrine pública de ações sociais (projetos, beneficiários, galeria, resultados)
+- Painel administrativo (membros ativos, próximos eventos, ações em destaque)
 - RBAC: admin, coordenador, membro, visitante
 
-**Entidades:** `users`, `members`, `member_categories`, `memberships_history`, `cards`, `product_categories`, `products`, `product_images`, `event_categories`, `events`, `enrollments`, `attendances`.
+**Entidades:** `users`, `members`, `member_categories`, `memberships_history`, `cards`, `product_categories`, `products`, `product_images`, `event_categories`, `events`, `enrollments`, `attendances`, `social_actions`, `social_action_images`.
