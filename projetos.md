@@ -74,25 +74,26 @@ Restaurantes de pequeno e médio porte ainda dependem de comandas em papel e ano
 
 ---
 
-## GRUPO 4 - Manganga - Plataforma do Boi-Bumbá
+## GRUPO 4 - Olho na Rua - Plataforma de Denúncias de Descarte Irregular
 
-Plataforma da associação cultural do Boi-Bumbá Manganga: gerencia os membros (brincantes, ritmistas, diretoria, apoiadores), expõe os produtos oficiais da agremiação, organiza os eventos (ensaios, apresentações, festivais) e mantém uma vitrine pública das ações sociais realizadas pelo grupo na comunidade.
+Plataforma cívica para denúncia de descarte irregular de resíduos. Qualquer cidadão registra a denúncia com foto e geolocalização; agentes públicos recebem, atendem e atualizam o status; toda a comunidade acompanha em um mapa público as denúncias e resoluções na cidade.
 
 ### Problemática
 
-A associação cultural do Boi-Bumbá Manganga preserva uma manifestação cultural típica da Amazônia, mas opera sem sistema próprio: lista de brincantes em papel, comunicação por WhatsApp, divulgação de ensaios e apresentações apenas em redes sociais sem histórico institucional, vendas de produtos oficiais informais, e impacto social das ações invisível para a comunidade e potenciais patrocinadores. Isso compromete a memória institucional do grupo, dificulta a gestão da associação, limita a venda de produtos que sustentam a agremiação e impede que o trabalho social realizado seja reconhecido como patrimônio cultural e social da região.
+O descarte irregular de lixo, entulho, móveis velhos, eletrônicos e resíduos químicos é um problema crônico em cidades brasileiras, com impacto direto na saúde pública (foco de dengue, leptospirose), no meio ambiente (contaminação de igarapés, várzeas e nascentes na Amazônia) e na drenagem urbana (alagamentos). Os canais atuais de denúncia — telefone 156, WhatsApp da prefeitura, redes sociais — são fragmentados, não fornecem rastreabilidade, raramente dão retorno ao denunciante e não geram dados consolidados que permitam ao poder público identificar pontos críticos recorrentes. O cidadão sente que denunciar não muda nada; o fiscal não tem fila organizada de atendimento; o gestor não tem mapa de calor das ocorrências. Falta uma plataforma única, transparente e georreferenciada que conecte denunciante, fiscalização e sociedade.
 
 ### Escopo
 
-- Cadastro de membros com categoria (brincante, ritmista, alegoria, diretoria, apoiador, fundador)
-- Histórico de filiação (ingresso, afastamento, reativação)
-- Geração de carteirinha digital com número único e QR code
-- Validação pública da carteirinha (membros ativos da agremiação)
-- Catálogo público de produtos oficiais (camisetas, CDs de toadas, adereços, souvenirs)
-- Gestão de eventos: ensaios, apresentações, festivais, eventos beneficentes
-- Inscrição de membros em eventos com confirmação de presença
-- Vitrine pública de ações sociais (projetos, beneficiários, galeria, resultados)
-- Painel administrativo (membros ativos, próximos eventos, ações em destaque)
-- RBAC: admin, coordenador, membro, visitante
+- Registro de denúncia com foto, descrição, geolocalização e tipo de resíduo
+- Denúncia anônima ou identificada (denunciante autenticado)
+- Categorização do resíduo (entulho, lixo doméstico, eletrônico, químico, orgânico, móveis)
+- Mapa público de denúncias com filtros por tipo, status e período
+- Atribuição automática ou manual do caso ao fiscal responsável pela zona
+- Fluxo de status: recebida → em análise → em atendimento → resolvida / arquivada / improcedente
+- Histórico completo de mudanças de status e comentários públicos do agente
+- Galeria "antes e depois" da resolução
+- Painel do fiscal: casos atribuídos, fila por prioridade, mapa da zona
+- Painel administrativo: estatísticas por zona, tipos mais frequentes, tempo médio de resolução, ranking de pontos críticos
+- RBAC: admin, fiscal, cidadão, visitante (anônimo)
 
-**Entidades:** `users`, `members`, `member_categories`, `memberships_history`, `cards`, `product_categories`, `products`, `product_images`, `event_categories`, `events`, `enrollments`, `attendances`, `social_actions`, `social_action_images`.
+**Entidades:** `users`, `citizens`, `agents`, `zones`, `waste_categories`, `reports`, `report_images`, `report_status_history`, `report_comments`, `assignments`.
