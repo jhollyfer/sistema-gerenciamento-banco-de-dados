@@ -1,5 +1,5 @@
 
-# Divisão de Grupos — Projetos Práticos
+# Divisão de Grupos - Projetos Práticos
 
 **Total:** 20 alunos | 4 grupos de 5 pessoas
 
